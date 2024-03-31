@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
 })
 
 export default props => {
+    console.debug(props.value)
     return (
         <View style={styles.display}>
             <Text
